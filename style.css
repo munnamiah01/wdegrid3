@@ -1,0 +1,82 @@
+#a
+{
+    grid-area: a;
+    background-color: aliceblue;
+}
+#b
+{
+    grid-area: b;
+    background-color: aqua;
+}
+#c
+{
+    grid-area: c;
+    background-color: blue;
+}
+#d
+{
+    grid-area: d;
+    background-color: aquamarine;
+}
+#e
+{
+    grid-area: e;
+    background-color: red;
+}
+#f
+{
+    grid-area: f;
+    background-color: green;
+}
+#g
+{
+    grid-area: g;
+    background-color: brown;
+}
+#h
+{
+    grid-area: h;
+    background-color: chocolate;
+}
+#i
+{
+    grid-area: i;
+    background-color: blueviolet;
+}
+#j
+{
+    grid-area: j;
+    background-color: aquamarine;
+}
+#k
+{
+    grid-area: k;
+    background-color: azure;
+}
+#l
+{
+    grid-area: l;
+    background-color: blue;
+}
+#m
+{
+    grid-area: m;
+    background-color: brown;
+}
+#n
+{
+    grid-area: n;
+    background-color: red;
+}
+.GridColourLayout
+{
+    display: grid;
+    text-align: center;
+    background-color: black;
+    gap: 5px;
+    padding: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+    grid-template-areas:"a a b c" "d e f g" "h h i j" "h h k l" "m m m n";
+    height: 50vh;
+}
